@@ -7,3 +7,33 @@
   background-color: black;
   color: white;
 }
+
+.list {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  /* justify-content: flex-start; */
+
+  height: 100px;
+
+  padding: 10px;
+  gap: 10px;
+  
+  border: 1px solid #9c9c9c;
+}
+
+.log-title {
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+
+    border-bottom: 1px solid #e1e1e1;
+}
+
+.like-button {
+  cursor: pointer;
+}
+
+.modal {
+  
+}
